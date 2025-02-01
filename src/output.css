@@ -558,12 +558,6 @@ video {
   width: 100%;
 }
 
-@media (min-width: 400px) {
-  .container {
-    max-width: 400px;
-  }
-}
-
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
@@ -598,14 +592,6 @@ video {
   position: relative;
 }
 
-.bottom-0 {
-  bottom: 0px;
-}
-
-.right-0 {
-  right: 0px;
-}
-
 .top-10 {
   top: 2.5rem;
 }
@@ -630,8 +616,8 @@ video {
   display: none;
 }
 
-.h-full {
-  height: 100%;
+.h-dvh {
+  height: 100dvh;
 }
 
 .items-center {
@@ -731,13 +717,6 @@ ul li:hover {
   color: rgb(95 110 145 / var(--tw-text-opacity, 1));
 }
 
-@media (min-width: 400px) {
-  ul li {
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-  }
-}
-
 nav .logo {
   background-image: linear-gradient(to left, var(--tw-gradient-stops));
   --tw-gradient-from: #784f5d var(--tw-gradient-from-position);
@@ -758,14 +737,6 @@ nav .logo {
     position: absolute;
   }
 
-  .max-\[767px\]\:h-full {
-    height: 100%;
-  }
-
-  .max-\[767px\]\:h-6 {
-    height: 1.5rem;
-  }
-
   .max-\[767px\]\:h-60 {
     height: 15rem;
   }
@@ -777,20 +748,6 @@ nav .logo {
   .max-\[767px\]\:bg-secondary {
     --tw-bg-opacity: 1;
     background-color: rgb(81 52 76 / var(--tw-bg-opacity, 1));
-  }
-}
-
-@media (min-width: 400px) {
-  .mobile\:absolute {
-    position: absolute;
-  }
-
-  .mobile\:h-60 {
-    height: 15rem;
-  }
-
-  .mobile\:w-full {
-    width: 100%;
   }
 }
 
