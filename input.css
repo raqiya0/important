@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+nav{
+    @apply flex justify-between  items-center mt-3 bg-background border-b-2 border-b-gray-700
+}
+ul li{
+    @apply mr-8 text-2xl capitalize font-semibold text-text hover:text-primary transition ease-in duration-75 
+}
+nav .logo{
+    @apply text-4xl capitalize font-semibold bg-gradient-to-l from-accent  to-primary text-transparent bg-clip-text
+}
